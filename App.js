@@ -16,7 +16,7 @@ submitButton.addEventListener("click", ()=>{
     if(numberArea.value == y){
         result.innerHTML = "Congrats! You found the number in your " + (10 - (attempt.value - 1)) + ". trial.";
         // attemptDiv.style.display = "none";
-        document.body.style.backgroundImage = "url('https://img.freepik.com/free-photo/picture-blue-purple-fireworks-during-night_181624-15999.jpg?w=826')";
+        document.body.style.backgroundImage = "url('./images/image-1.jpg')";
     }
 
     else if(numberArea.value < y)
@@ -41,7 +41,7 @@ submitButton.addEventListener("click", ()=>{
     }
 
     else if(parseInt(attempt.value) == 0){
-        alert("You have no attepmt left!")
+        alert("You have no attempt left!")
     }
 
     else if(numberArea.value == y){
