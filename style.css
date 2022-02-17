@@ -49,6 +49,7 @@ p{
     color: black;
     margin-left: 2rem;
     text-align: center;
+    border: none;
 }
 
 #submit-button{
