@@ -16,7 +16,7 @@ submitButton.addEventListener("click", ()=>{
     if(numberArea.value == y){
         result.innerHTML = "Congrats! You found the number in your " + (10 - (attempt.value - 1)) + ". trial.";
         // attemptDiv.style.display = "none";
-        document.body.style.backgroundImage = "url('./images/image-1.jpg')";
+        document.body.style.backgroundImage = "url('./images/image-2.jpg')";
     }
 
     else if(numberArea.value < y)
