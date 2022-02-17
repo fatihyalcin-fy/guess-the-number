@@ -10,25 +10,33 @@
   <body>
     <div class="container">
       <div class="heading">
-        <p>Guess the Number</p>
+        <p><b>Guess the Number ( 1 - 100 )</b></p>
       </div>
 
-      <div class="number-area">
-        <input type="number" id="number-area" />
-        <br>
+      <div class="number-place">
+        <input type="number" name="number" id="number-area" required />
+        <br />
         <button type="submit" id="submit-button">Check</button>
       </div>
 
-      <div class="image">
-        <img src="" alt="" id="img" />
+      <div class="clear"></div>
+
+      <div class="result">
+        <p class="result" id="result"></p>
       </div>
 
       <div class="attempt">
-        <p>Number of attemps:</p>
-        <span id="attempt"></span>
+        <p id="text2">Number of attemps left : <span id="attempt">10</span></p>
       </div>
 
       <script src="./App.js"></script>
     </div>
+    <footer class="footer">
+      <div>
+        <p style="color: #5f6368; font-size: 0.8rem">
+          All Rights Reserved © Fatih YALÇIN
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

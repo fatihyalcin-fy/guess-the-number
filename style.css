@@ -9,11 +9,14 @@
 
 body{
     background-color: #ffb921;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .container{
     background-color: black;
-    width: 60%;
+    width: 20rem;
     margin: auto;
     height: 30rem;
     margin-top: 5rem;
@@ -24,38 +27,82 @@ p{
     text-align: center;
 }
 
-.number-area{
+.number-place{
     margin: auto;
     width: auto;
-
+    padding: 20px;
+    color: black;
+    /* margin-left: 60px; */
+    /* display: block;
+    justify-content: center;
+    align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
+    
     
 }
 
+#number-area{
+    padding: 0.3rem;
+    border-radius: 20px;
+    color: black;
+    margin-left: 2rem;
+    text-align: center;
+}
+
 #submit-button{
-    padding: 0.5rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding: 0.4rem;
+    padding-left: 5.2rem;
+    padding-right: 5.2rem;
     border: none;
     border-radius: 20px;
     margin-top: 1rem;
-    margin-bottom: 200px;
+    margin-bottom: 60px;
     color: white;
     background-color: #ffb921;
+    margin-left: 2rem;
+    
+    
 }
 
 #submit-button:hover{
-    padding: 0.5rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding: 0.4rem;
+    padding-left: 5.2rem;
+    padding-right: 5.2rem;
     border: none;
     border-radius: 20px;
-    background-color: white;
+    margin-top: 1rem;
+    margin-bottom: 60px;
     color: #ffb921;
+    background-color: white;
     cursor: pointer;
     
 }
 
+.clear::after{
+    clear: both;
+}
 
 .attempt{
     margin-top: 30px;
+}
+
+.heading{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.result{
+    padding: 10px;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    width: 100%;
+    color: #5f6368;
 }
